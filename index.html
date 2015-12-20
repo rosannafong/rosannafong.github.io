@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Website redirect to Rosanna Fong's Portfolio</title>
+    <meta name="description" content="Redirect to Rosanna Fong's Portfolio.">
+    <meta name="author" content="Rosanna Fong">
+    <meta http-equiv="refresh" content="0; URL='http://rosanna.co.nz/'" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="screen"/>
+    <link href="/images/brand/favicon.ico" rel="icon" type="image/x-icon">
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="page-wrap">
+      <header>
+        <div class="container">
+          <div class="logo">
+            <a href="/">
+              <img src="images/brand/logo-sm.svg" onerror="this.src='images/brand/logo-sm.png'; this.onerror=null;" alt="Rosanna Fong logo"/>
+              <span class="brand">Rosanna Fong</span>
+            </a>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="intro">
+          <div class="container">
+            <!--Begin introduction-->
+            <h1>Github landing page</h1>
+            <p class="big">In a momemnt, you will be redirected to my portfolio at <a href="http://rosanna.co.nz/">http://rosanna.co.nz/<span class="sr-only"> This link will take you to an external website.</span></a>.</p>
+            <!--End introduction-->
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="contact-area">
+      <div class="container">
+        <h3>Contact me</h3>
+        <ul class="inline-list">
+          <li><a href="mailto:contact@rosanna.co.nz"><span class="fa fa-envelope fa-3x"></span><span class="sr-only">Email: contact@rosanna.co.nz</span></a></li>
+          <li><a href="http://nz.linkedin.com/pub/rosanna-fong/37/ab6/201"><span class="fa fa-linkedin-square fa-3x"></span><span class="sr-only">This link takes you to an external site. You will be taken to Rosanna's LinkedIn profile.</span></a></li>
+          <li><a href="https://github.com/rosannafong"><span class="fa fa-github-square fa-3x"></span><span class="sr-only">This link takes you to an external site. You will be taken to Rosanna's GitHub Gist.</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <p class="copyright-info">&copy; 2015 Rosanna Fong.</p>
+        <button type="button" class="button up-button">Back to top</button>
+      </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.up-button').click(function(){
+          $("html, body").animate({scrollTop: 0}, 800);
+          return false;
+        });
+      });
+    </script>
+  </body>
+</html>
